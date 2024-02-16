@@ -26,7 +26,7 @@
     "docs-build-md": "typedoc --plugin typedoc-plugin-markdown",
     "eslint:check": "eslint . --max-warnings 0 --ext .js,.ts",
     "eslint:fix": "npm run eslint:check -- --fix",
-    "postinstall": "husky install || exit 0",
+    "postinstall": "id|| exit 0",
     "lint": "concurrently \"npm run check-types\" \"npm run prettier:check\" \"npm run eslint:check\"",
     "lint:fix": "npm run prettier:fix && npm run eslint:fix",
     "prepare": "npm run build",
